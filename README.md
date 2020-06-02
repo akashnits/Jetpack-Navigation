@@ -24,9 +24,9 @@ Type safety when passing information while navigating
 
 Navigation Graph:
 -------------------------------
-<navigation> is the root node of every navigation graph.
+\<navigation\> is the root node of every navigation graph.
 
-<navigation> contains one or more destinations, represented by <activity> or <fragment> elements.
+\<navigation\> contains one or more destinations, represented by \<activity\> or \<fragment\> elements.
 
 app:startDestination is an attribute that specifies the destination that is launched by default when the user first opens the app.
 
@@ -238,15 +238,15 @@ filter and associate a URL with the activity you want to open.
 
 The navigation library makes this extremely simple and allows you to map URLs directly to destinations in your navigation graph.
 
-deepLink is an element you can add to a destination in your graph. Each <deepLink> element has a single required attribute: app:uri.
+deepLink is an element you can add to a destination in your graph. Each \<deepLink\> element has a single required attribute: app:uri.
 
-Add a URIbased Deep Link using <deepLink>
+Add a URIbased Deep Link using \<deepLink\>
 
 In this step, you'll add a deep link to www.example.com.
 
 1. Open mobile_navigation.xml
 
-2. Add a <deepLink> element to the deeplink_dest destination.
+2. Add a \<deepLink\> element to the deeplink_dest destination.
 
 ```
 mobile.navigation.xml
